@@ -1,0 +1,129 @@
+header{
+
+}
+
+.header__top{
+    background-image: url("../image/BG-Header.jpg") ;
+    background-size: cover;
+}
+
+.header__top .row{
+    align-items: center;
+}
+
+.welcome{
+    flex:1;
+    color: white;
+    font-family: "openSansRegular";
+    margin-left:25px;
+}
+
+.social_networks{
+    flex:1;
+}
+
+.social_networks ul{
+    text-align: right;
+    padding: 0;
+    margin-right: 15px;
+    
+}
+
+.social_networks ul li{
+    display:inline-block;
+}
+
+.social_networks ul li a{
+    color:#83dc36;
+    padding: 17px;
+    font-size: 20px;
+}
+
+.social_networks ul li a i{
+
+}
+
+.header__bottom{
+    background-color: white;
+}
+
+.logo{
+
+}
+
+.logo img{
+    margin-left: 15px;
+    flex:1;
+}
+
+.search{
+    flex:2;
+}
+
+.search form{
+    align-items: center;
+    /* text-align: center; */
+}
+
+.search input{
+    text-align: center;
+    width: 500px;
+    height: 53px;
+    border-radius: 30px;
+    border-color: #83dc36;
+    outline: none;
+    margin-top: 15px;
+    margin-left:70px;
+    position: relative;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-width: 2px;
+
+
+}
+
+.search button{
+    height: 53px;
+    width: 90px;
+    background-color:#83dc36 ;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 15px;
+    margin-right:30px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    border-width: 2px;
+    border-color:#83dc36 ;
+    outline: none;
+
+    
+}
+
+.contact {
+    flex:1;
+}
+
+.contact ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.contact ul li{
+    text-decoration: none;
+    text-align: left;
+    padding: 0;
+    
+}
+
+.contact ul li i{
+    color:#83dc36;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact ul li span{
+    margin-left: 5px;
+    color:#585757;
+    font-family: "openSansSemiBold";
+}

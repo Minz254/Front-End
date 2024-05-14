@@ -1,0 +1,28 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("main.css");
+@import url("footer.css");
+
+.container{
+   margin:auto;
+   width: 1200px;
+}
+
+.row{
+    display: flex;
+}
+
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "openSansRegular";
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face{
+    font-family: "openSansSemiBold";
+    src: url("../font/OpenSans-Semibold.ttf");
+}
