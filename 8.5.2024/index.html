@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="./css/jquery.bxslider.min.css" rel="stylesheet" />
     <title>08-05</title>
 </head>
 
@@ -112,7 +118,12 @@
     </nav>
     <main>
         <section class="slide">
-            <img src="./image/Led Thái Dương_04.jpg" alt="">
+            <ul class="bxslider">
+                <li><img src="./image/Led Thái Dương_04.jpg" /></li>
+                <li><img src="./image/Led Thái Dương_04.jpg" /></li>
+                <li><img src="./image/Led Thái Dương_04.jpg" /></li>
+                <li><img src="./image/Led Thái Dương_04.jpg" /></li>
+              </ul>
         </section>
 
         <section id="service">
@@ -696,6 +707,11 @@
         </div>
 
     </footer>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider();
+        });
+    </script>
 </body>
 
 </html>

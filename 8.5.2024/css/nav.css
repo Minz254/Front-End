@@ -1,11 +1,15 @@
 nav{
-
+    margin-top:5px;
 }
 
 .category{
-    margin-top:16px;
+    background-color: #83dc36;
+    position: relative;
     text-align: center;
-    flex:2.5;
+    flex: 2.5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
 }
 
 .category:hover .category__list{
@@ -14,16 +18,17 @@ nav{
 }
 
 .category:hover{
-    background-color: #83dc36;
+    /* background-color: #83dc36; */
     color:white;
     cursor: pointer;
     height: 100%;
-    z-index: 1;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 .category__title{
     margin-left:15px;
+    padding: 15px 0 10px 5px;
 }
 
 .categoryTitle__icon{
@@ -43,6 +48,8 @@ nav{
 
 .category__list{
     display: none;
+    position:absolute;
+    width: 100%;
     background-color: white;
     border-bottom-left-radius: 15px ;
     border-bottom-right-radius: 15px ;
@@ -50,14 +57,21 @@ nav{
 }
 
 .category__list ul {
-    padding: 0;
+    margin:0;
+    padding: 0 5px;
     list-style: none;
     text-align: left;
 }
 
 .category__list ul li{
     padding:10px 0 10px 15px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dotted black;
+}
+
+.category li:last-child{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid white;
 }
 
 .category__list ul li:hover{
