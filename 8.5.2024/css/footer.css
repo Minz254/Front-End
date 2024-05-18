@@ -1,0 +1,141 @@
+.footer__top{
+}
+
+footer{
+    background-color: #323232;
+}
+
+.list{
+    text-align: center;
+    padding:15px 0 0 0;
+}
+
+.list ul{
+    list-style: none;
+    padding:0;
+    
+}
+
+.list ul li{
+    display: inline-block;
+}
+
+.list ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: "openSansSemiBold";
+    padding:20px;
+    text-transform: uppercase;
+}
+
+.footerTop__info{
+    padding-bottom: 50px;
+}
+
+.info__aboutUs{
+    flex:1;
+}
+
+.info__aboutUs h4{
+   color:white;
+   font-family: "openSansSemiBold";
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-size: 18px;
+}
+
+.info__aboutUs ul{
+    padding: 0;
+    list-style: none;
+}
+
+.info__aboutUs ul li{
+    color:white;
+    padding:5px 0 5px 0;
+}
+
+.info__privacy{
+    flex:1;
+}
+
+.info__privacy h4{
+    color:white;
+    font-family: "openSansSemiBold";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.info__privacy ul {
+    padding: 0;
+    list-style: none;
+}
+
+.info__privacy ul li{
+    color:white;
+    padding:5px 0 5px 0;
+}
+
+.info__fanpage{
+    flex:1;
+}
+
+.info__fanpage h4{
+    color:white;
+    font-family: "openSansSemiBold";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footerTopFanpage__image{
+
+}
+
+.footerTopFanpage__image img{
+
+}
+
+.info__data{
+    flex:1;
+}
+
+.info__data h4{
+    color:white;
+    font-family: "openSansSemiBold";
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.info__data ul {
+    padding:0;
+
+}
+
+.info__data ul li{
+    list-style: none;
+    color:white;
+}
+
+.footer__bottom{
+    margin-top: -19px;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.footer__bottom .row{
+}
+
+.footerBottom_left{
+    flex:1;
+    color: white;
+    font-style: italic;
+}
+
+.footerBottom__right{
+    flex:1;
+    color: white;
+    text-align: right;
+    font-style: italic;
+}
