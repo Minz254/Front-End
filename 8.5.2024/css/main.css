@@ -1,4 +1,5 @@
 main{
+    min-height: 757px;
 }
 
 .slide{
@@ -413,4 +414,11 @@ article{
     background-color: #7bda29;
     color:white;
     border-radius: 10px;
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: -80px;
+    right: 29px;
+    font-size: 25px;
 }
