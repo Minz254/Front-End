@@ -422,3 +422,21 @@ article{
     right: 29px;
     font-size: 25px;
 }
+
+.product{
+    z-index: -1;
+    margin-top:20px;
+}
+
+.product .row{
+
+}
+
+.product .product__image{
+    flex:1;
+    min-height: 565px;
+}
+
+.product .product__detail{
+    flex:2;
+}
