@@ -389,12 +389,17 @@ article{
     flex:1;
 }
 
+#lamp1 h3{
+    margin-top:23px;
+}
+
 #lamp2{
     flex:3;
     margin-top:5px;
 }
 
 #lamp2 ul{
+    margin:0;
     padding:0;
 }
 
@@ -404,6 +409,7 @@ article{
 
 #lamp2 ul li a{
     font-family: "openSansRegular";
+    font-size: smaller;
     text-decoration: none;
     /* margin-right: 20px; */
     padding:10px;
